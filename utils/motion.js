@@ -18,7 +18,7 @@ export const navVariants = {
     },
   },
 };
-
+// USE variants={slideIn('right', 'tween', 0.2, 1)} PROPS IN motion.div LIKE THIS
 export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
     x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
@@ -46,6 +46,7 @@ export const staggerContainer = (staggerChildren, delayChildren) => ({
   },
 });
 
+// DELAY IS PASSED TO WHERE THE textVariant IS USED
 export const textVariant = (delay) => ({
   hidden: {
     y: 50,
