@@ -21,7 +21,7 @@ export const navVariants = {
 // USE variants={slideIn('right', 'tween', 0.2, 1)} PROPS IN motion.div LIKE THIS
 export const slideIn = (direction, type, delay, duration) => ({
   hidden: {
-    x: direction === 'left' ? '-100%' : direction === 'right' ? '100%' : 0,
+    x: direction === 'left' ? '-130%' : direction === 'right' ? '100%' : 0,
     y: direction === 'up' ? '100%' : direction === 'down' ? '100%' : 0,
   },
   show: {

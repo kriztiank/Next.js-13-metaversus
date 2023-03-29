@@ -29,6 +29,7 @@ const Hero = () => (
         </motion.div>
       </div>
 
+      {/* DELAY (1.1) IS PASSED FROM ../utils/motion */}
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className='relative w-full md:-mt-[20px] -mt-[12px]'
